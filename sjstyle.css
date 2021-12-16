@@ -1,0 +1,95 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 1em;
+}
+
+.btn{
+    border-radius: 0px;
+    background-color: rgb(255,166,0);
+    border: none;
+    transition: .4s;
+}
+
+.btn:hover{
+    border-radius: 0px;
+    background-color: rgb(255,166,0);
+    color: rgb(0,68,140);
+}
+
+
+.navbar{
+    font-family: 'Outfit';
+    font-weight: bold;
+    font-size: larger;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: rgb(36,145,235);
+}
+
+.dropdown{
+    margin: 5px;
+    transition: .5s;
+}
+
+.dropdown .dropdown-menu {
+    border-radius: 0px;
+    border: none;
+    background-color: rgb(255,166,0);
+    transition: .4s;
+}
+
+.dropdown-item {
+   font-family: 'Outfit';
+   font-size: larger;
+   font-weight: bold;
+   color: white;
+   transition: .5s;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+
+}
+
+.dropdown-item:hover {
+    font-family: 'Outfit';
+    color: rgb(0,68,140);
+    background-color: rgb(255,166,0);
+}
+
+.something {
+    margin-left: 20px;
+    font-family: 'Outfit';
+    font-weight: bold;
+    align-self: center;
+    height: 2.5rem;
+}
+
+.image{
+    position: relative;
+    margin-left: -16px;
+    margin-right: -16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission {
+    position: absolute;
+    top: 33%;
+
+}
+
+.statement{
+    font-size: 6vw;
+    color: white;
+    font-family: 'Outfit';
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: min(6vw, 100px);
+    max-width: 1320px;
+    text-align: center;
+}
