@@ -1,0 +1,72 @@
+body{
+    background-color: #1A438B;
+}
+
+/* Navbar CSS */
+
+/* Form */
+
+#panel{
+    background-color: white;
+    width: min(95%, 1320px);
+    margin: auto;
+    box-shadow: 0px 10px 25px rgba(0, 0 ,0, .5);
+
+}
+
+#title{
+    font-family: 'Outfit';
+    font-weight: bold;
+    color: rgb(255,166,0);
+    font-size: xxx-large;
+    width: min(99%vw, 1320px);
+    margin: 50px auto 0px auto;   
+    padding-left: 4vw;
+    padding-top: 25px;
+
+}
+
+#line{
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.mainform{
+    width: min(99%, 1320px);;
+    margin: 0px auto 0px auto;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.form-label{
+    font-family: 'Outfit';
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(0,68,140);
+}
+
+.form-control{
+    border: none;
+    background-color: rgba(240,240,240, .7);
+    border-radius: 10px;
+}
+
+.form-control:focus{
+    border: none;
+    background-color: rgba(0,68,140, 0.3);
+}
+
+.options{
+    color: black;
+}
+
+#submit{
+    border-radius: 10px;
+    font-family: outfit;
+    font-weight: bold;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+
+

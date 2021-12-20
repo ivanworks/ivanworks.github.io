@@ -1,0 +1,22 @@
+.image{
+    position: relative;
+    margin-left: -16px;
+    margin-right: -16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission {
+    position: absolute;
+}
+
+.statement{
+    color: white;
+    font-family: 'Outfit';
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: min(6vw, 100px);
+    max-width: 1320px;
+    text-align: center;
+}
