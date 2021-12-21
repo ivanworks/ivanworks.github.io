@@ -42,57 +42,73 @@
         <form action="#" class=" row g-3 mainform">
 
             <div class="col-md-6">
-                <label for="employerName" class="form-label">Name</label>
-                <input type="email" class="form-control midwidth" id="employerName">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control midwidth" id="name" required>
             </div>
 
             <div class="col-md-6">
-                <label for="employerName" class="form-label">E-mail</label>
-                <input type="email" class="form-control midwidth" id="employerName">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control midwidth" id="email" required>
             </div>
 
             <div class="col-md-4">
-                <label for="employerName" class="form-label">High School</label>
-                <select class="form-control midwidth" id="inputGroupSelect01">
-                    <option class="options" value="1">One</option>
-                    <option class="options" value="2">Two</option>
-                    <option class="options" value="3">Three</option>
+                <label for="hs" class="form-label">High School</label>
+                <select class="form-control midwidth" id="hs" required>
+                    <option class="options" value=""></option>
+                    <option class="options" value="andrewphill">Andrew P. Hill</option>
+                    <option class="options" value="evergreenvalley">Evergreen Valley</option>
+                    <option class="options" value="independence">Independence</option>
+                    <option class="options" value="jameslick">James Lick</option>
+                    <option class="options" value="mtpleasant">Mt. Pleasant</option>
+                    <option class="options" value="oakgrove">Oak Grove</option>
+                    <option class="options" value="piedmonthills">Piedmont Hills</option>
+                    <option class="options" value="santateresa">Santa Teresa</option>
+                    <option class="options" value="silvercreek">Silver Creek</option>
+                    <option class="options" value="overfelt">William C. Overfelt</option>
+                    <option class="options" value="yerbabuena">Yerba Buena</option>
+                    <option class="options" value="accel">Accel Middle College</option>
+                    <option class="options" value="apollo">Apollo</option>
+                    <option class="options" value="calero">Calero</option>
+                    <option class="options" value="foothill">Foothill</option>
+                    <option class="options" value="pegasus">Pegasus</option>
+                    <option class="options" value="phoenix">Phoenix</option>
                 </select>
             </div>
 
             <div class="col-md-7">
-                <label for="employerName" class="form-label">Grade</label>
-                <select class="form-control numwidth" id="inputGroupSelect01">
-                    <option class="options" value="1">9th</option>
-                    <option class="options" value="2">10th</option>
-                    <option class="options" value="3">11th</option>
-                    <option class="options" value="3">12th</option>
+                <label for="grade" class="form-label">Grade</label>
+                <select class="form-control numwidth" id="grade" required>
+                    <option class="options" value=""></option>
+                    <option class="options" value="9">9th</option>
+                    <option class="options" value="10">10th</option>
+                    <option class="options" value="11">11th</option>
+                    <option class="options" value="12">12th</option>
                 </select>
             </div>
 
             <div class="col-md-4">
-                <label for="employerName" class="form-label">What Career Pathway are you in?</label>
-                <input type="text" class="form-control midwidth" id="employerName">
+                <label for="pathway" class="form-label">What Career Pathway are you in?</label>
+                <input type="text" class="form-control midwidth" id="pathway" required>
             </div>
 
             <div class="col-md-5">
-                <label for="numInterns" class="form-label">How many pathway classes have you taken?</label>
-                <input type="number" class="form-control numwidth" id="numInterns">
+                <label for="numClasses" class="form-label">How many pathway classes have you taken?</label>
+                <input type="number" class="form-control numwidth" id="numClasses" required>
             </div>
 
             <div class="col-md-12">
                 <label for="why" class="form-label">Why would you like to join SJ Works?</label>
-                <textarea class="form-control" id="why" rows="3"></textarea>
+                <textarea class="form-control" id="why" rows="3" required></textarea>
             </div>
 
             <div class="col-md-6">
-                <label for="employerName" class="form-label">Teacher's Name</label>
-                <input type="text" class="form-control midwidth" id="employerName">
+                <label for="teacher" class="form-label">Teacher's Name</label>
+                <input type="text" class="form-control midwidth" id="teacher" required>
             </div>
 
             <div class="col-md-6">
-                <label for="employerName" class="form-label">Teacher's E-mail</label>
-                <input type="email" class="form-control midwidth" id="employerName">
+                <label for="teacherEmail" class="form-label">Teacher's E-mail</label>
+                <input type="email" class="form-control midwidth" id="teacherEmail" required>
             </div>
 
             <button type="submit" class="btn btn-primary" id="submission" onclick="return confirm('Are you sure you wish to continue?')">Submit</button>

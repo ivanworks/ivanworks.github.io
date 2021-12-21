@@ -42,27 +42,27 @@
         <form action="#" class="row g-3 mainform">
             <div class="col-md-6">
                 <label for="employerName" class="form-label">Name of Employer</label>
-                <input type="text" class="form-control midwidth" id="employerName">
+                <input type="text" class="form-control midwidth" id="employerName" required>
             </div>
 
             <div class="col-md-6">
-                <label for="employerName" class="form-label">Email of Employer</label>
-                <input type="email" class="form-control midwidth" id="employerName">
+                <label for="employerEmail" class="form-label">Email of Employer</label>
+                <input type="email" class="form-control midwidth" id="employerEmail" required>
             </div>
 
             <div class="col-md-5">
                 <label for="companyName" class="form-label">Name of Company</label>
-                <input type="text" class="form-control midwidth" id="companyName">
+                <input type="text" class="form-control midwidth" id="companyName" required>
             </div>
 
             <div class="col-md-12">
                 <label for="why" class="form-label">Why would you like to join SJ Works?</label>
-                <textarea class="form-control" id="why" rows="3"></textarea>
+                <textarea class="form-control" id="why" rows="3" required></textarea>
             </div>
 
             <div class="col">
                 <label for="numInterns" class="form-label">How many interns would you like to employ?</label>
-                <input type="number" class="form-control numwidth" id="numInterns">
+                <input type="number" class="form-control numwidth" id="numInterns" required>
             </div>
 
             <button type="submit" class=" col-md-12 btn btn-primary" id="submission" onclick="return confirm('Are you sure you wish to continue?')">Submit</button>
