@@ -10,16 +10,26 @@
     color: rgb(36,145,235);
 }
 
+#menuLink:hover{
+    color: rgb(0,68,140);
+}
+
 .dropdown{
     margin: 5px;
     transition: .5s;
 }
 
 .dropdown .dropdown-menu {
-    border-radius: 0px;
+    border-radius: 5px;
     border: none;
     background-color: rgb(255,166,0);
     box-shadow: 0px 10px 25px rgba(0, 0 ,0, .5);
+    transition: all 0.4s ;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
 }
 
 .dropdown-item {
@@ -31,9 +41,8 @@
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-
+    max-height: 200px;
+    opacity: 1;
 }
 
 .dropdown-item:hover {

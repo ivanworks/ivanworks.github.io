@@ -39,20 +39,30 @@
 
         <hr id="line">
 
-        <form action="#" class="mainform">
+        <form action="#" class=" row g-3 mainform">
 
-            <div class="mb-3">
-                <label for="employerName" class="form-label">What High School do you currently attend?</label>
-                <select class="form-control" id="inputGroupSelect01">
+            <div class="col-md-6">
+                <label for="employerName" class="form-label">Name</label>
+                <input type="email" class="form-control midwidth" id="employerName">
+            </div>
+
+            <div class="col-md-6">
+                <label for="employerName" class="form-label">E-mail</label>
+                <input type="email" class="form-control midwidth" id="employerName">
+            </div>
+
+            <div class="col-md-4">
+                <label for="employerName" class="form-label">High School</label>
+                <select class="form-control midwidth" id="inputGroupSelect01">
                     <option class="options" value="1">One</option>
                     <option class="options" value="2">Two</option>
                     <option class="options" value="3">Three</option>
                 </select>
             </div>
 
-            <div class="mb-3">
-                <label for="employerName" class="form-label">What grade are you in?</label>
-                <select class="form-control" id="inputGroupSelect01">
+            <div class="col-md-7">
+                <label for="employerName" class="form-label">Grade</label>
+                <select class="form-control numwidth" id="inputGroupSelect01">
                     <option class="options" value="1">9th</option>
                     <option class="options" value="2">10th</option>
                     <option class="options" value="3">11th</option>
@@ -60,27 +70,32 @@
                 </select>
             </div>
 
-            <div class="mb-3">
+            <div class="col-md-4">
                 <label for="employerName" class="form-label">What Career Pathway are you in?</label>
-                <input type="text" class="form-control" id="employerName">
+                <input type="text" class="form-control midwidth" id="employerName">
             </div>
 
-            <div class="mb-3">
+            <div class="col-md-5">
                 <label for="numInterns" class="form-label">How many pathway classes have you taken?</label>
-                <input type="number" class="form-control" id="numInterns">
+                <input type="number" class="form-control numwidth" id="numInterns">
             </div>
 
-            <div class="mb-3">
+            <div class="col-md-12">
+                <label for="why" class="form-label">Why would you like to join SJ Works?</label>
+                <textarea class="form-control" id="why" rows="3"></textarea>
+            </div>
+
+            <div class="col-md-6">
                 <label for="employerName" class="form-label">Teacher's Name</label>
-                <input type="text" class="form-control" id="employerName">
+                <input type="text" class="form-control midwidth" id="employerName">
             </div>
 
-            <div class="mb-3">
-                <label for="employerName" class="form-label">E-mail</label>
-                <input type="email" class="form-control" id="employerName">
+            <div class="col-md-6">
+                <label for="employerName" class="form-label">Teacher's E-mail</label>
+                <input type="email" class="form-control midwidth" id="employerName">
             </div>
 
-            <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+            <button type="submit" class="btn btn-primary" id="submission" onclick="return confirm('Are you sure you wish to continue?')">Submit</button>
 
         </form>
 

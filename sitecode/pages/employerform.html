@@ -33,34 +33,39 @@
     </script>
 
     <!-- Form -->
-    <div id="panel">
+    <div id="panel" >
 
     <h1 id="title">ENTER YOUR INFO</h1>
 
     <hr id="line">
 
-        <form action="#" class="mainform">
-            <div class="mb-3">
+        <form action="#" class="row g-3 mainform">
+            <div class="col-md-6">
                 <label for="employerName" class="form-label">Name of Employer</label>
-                <input type="text" class="form-control" id="employerName">
+                <input type="text" class="form-control midwidth" id="employerName">
             </div>
 
-            <div class="mb-3">
+            <div class="col-md-6">
+                <label for="employerName" class="form-label">Email of Employer</label>
+                <input type="email" class="form-control midwidth" id="employerName">
+            </div>
+
+            <div class="col-md-5">
                 <label for="companyName" class="form-label">Name of Company</label>
-                <input type="text" class="form-control" id="companyName">
+                <input type="text" class="form-control midwidth" id="companyName">
             </div>
 
-            <div class="mb-3">
+            <div class="col-md-12">
                 <label for="why" class="form-label">Why would you like to join SJ Works?</label>
                 <textarea class="form-control" id="why" rows="3"></textarea>
             </div>
 
-            <div class="mb-3">
+            <div class="col">
                 <label for="numInterns" class="form-label">How many interns would you like to employ?</label>
-                <input type="number" class="form-control" id="numInterns">
+                <input type="number" class="form-control numwidth" id="numInterns">
             </div>
 
-            <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+            <button type="submit" class=" col-md-12 btn btn-primary" id="submission" onclick="return confirm('Are you sure you wish to continue?')">Submit</button>
 
         </form>
 
