@@ -1,7 +1,8 @@
+/* Mission Statement CSS*/
+
 .image{
     position: relative;
     margin-left: -16px;
-    margin-right: -16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,4 +20,100 @@
     font-size: min(6vw, 100px);
     max-width: 1320px;
     text-align: center;
+}
+
+/* About Us CSS */
+
+.sectionTitle{
+    color: #ffb703;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+
+p{
+    color: #FEF9EF;
+    text-align: justify;
+    font-family: 'Assistant', sans-serif; 
+    font-size: 20px;
+    padding: 3%;
+    margin: 0 7%;
+}
+
+#aboutUs{
+    /* background-color: #023047; */ /*original navy*/
+    background-color: #1A438B;
+
+}
+
+#about{
+    width: min(100%, 1320px);
+    margin: auto;
+}
+
+/* Our Progress CSS */
+
+#ourProgress{
+     background-color: #488FE6;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 0;
+    width: min(100%, 1320px);
+    padding-top: 2em;
+    margin: auto;
+}
+
+.statistics {
+    padding: 0em;
+    margin: 0.5em auto;
+    
+}
+
+.statistics h4, .statistics p{
+    text-align: center;
+}
+
+.statistics p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.statistics h4{
+    color: #ffb703;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+
+    border-radius: 100%;
+    background-color: #1A438B;
+    padding: 1em;
+    border-color: #ffb703;
+    border-style: double;
+    border-width: 5px;
+    width: 250px;
+    height: 250px;
+    
+    line-height: 125%;
+    margin: auto;
+}
+
+.statistics h4:hover{
+        box-shadow: 0 0.5em 0.5em -0.4em;
+        transform: translateY(-0.2em);
+        transition: box-shadow 0.5s, transform 0.5s;
+}
+
+@media screen and (max-width: 900px){
+    .row{
+        grid-template-columns: repeat(1, 100%);
+    }
 }
