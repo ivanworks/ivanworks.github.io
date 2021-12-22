@@ -31,16 +31,24 @@
 
 			}
 
+			#about{
+				width: min(100%, 1320px);
+				margin: auto;
+			}
+
 			#ourProgress{
 				 background-color: #488FE6;
 			}
+			
 			.row{
 				display: grid;
-				grid-template-columns: repeat(3, 30%);
+				grid-template-columns: repeat(3, 33%);
 				justify-content: center;
 				padding: 0;
-    			margin: 2em;
     			margin-bottom: 0;
+				width: min(100%, 1320px);
+				padding-top: 2em;
+				margin: auto;
 			}
 
 			.statistics {
@@ -67,10 +75,17 @@
 				width: 140px;
     			height: 140px;
     			line-height: 125%;
+				margin: auto;
 			}
 
 			.statistics h4:hover{
 				    box-shadow: 0 0.5em 0.5em -0.4em;
 				    transform: translateY(-0.2em);
 				    transition: box-shadow 0.5s, transform 0.5s;
+			}
+
+			@media screen and (max-width: 900px){
+				.row{
+					grid-template-columns: repeat(1, 100%);
+				}
 			}
