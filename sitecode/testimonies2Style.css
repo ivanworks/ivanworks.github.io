@@ -15,11 +15,15 @@
 
 footer {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background-color: #4299eb;
-  /*background-color: #296ec3;*/
+  /*background-color: #296ec3; #fafafa*/
 }
 
+#heading1,
+li {
+  color: #278ce8;
+}
 h2 {
   color: #fafafa;
   font-family: oswald;
@@ -35,7 +39,6 @@ h4 {
 }
 
 li {
-  color: #278ce8;
   font-family: noto-sans;
 }
 
@@ -44,31 +47,32 @@ nav {
 }
 
 .row {
+  width: 80%;
   margin: auto;
-  max-width: 70%;
+  text-align: center;
 }
 
 .images {
   padding: 10px;
-  width: 500px;
-  height: 350px;
-}
-
-.image-div {
-  display: inline-block;
+  width: 25%;
+  height: auto;
 }
 
 .image-links {
   display: inline-block;
   padding: 10px;
-  height: 35px;
+  width: 35px;
+}
+
+.facebook-logo {
+  display: inline-block;
+  padding: 15px;
   width: 35px;
 }
 
 #heading1 {
   text-align: center;
-  color: #278ce8;
-  margin-top: 45px;
+  margin-top: 25px;
   margin-bottom: 40px;
   font-size: 300%;
   font-family: oswald;
@@ -95,8 +99,11 @@ nav {
 }
 
 #images-box {
-  padding-top: 50px;
-  padding-left: 43%;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 30px;
 }
 
 .names {
@@ -137,5 +144,9 @@ nav {
 
 a:link {
   text-decoration: none;
+  color: #0045db;
+}
+
+a:visited {
   color: #0045db;
 }
