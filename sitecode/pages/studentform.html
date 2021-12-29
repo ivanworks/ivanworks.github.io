@@ -39,21 +39,21 @@
 
         <hr id="line">
 
-        <form action="#" class=" row g-3 mainform">
+        <form action="" class=" row g-3 mainform" method="post">
 
             <div class="col-md-6">
                 <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control midwidth" id="name" required>
+                <input type="text" class="form-control midwidth" id="name" name="name" required>
             </div>
 
             <div class="col-md-6">
                 <label for="email" class="form-label">E-mail</label>
-                <input type="email" class="form-control midwidth" id="email" required>
+                <input type="email" class="form-control midwidth" id="email" name="email" required>
             </div>
 
             <div class="col-md-4">
                 <label for="hs" class="form-label">High School</label>
-                <select class="form-control midwidth" id="hs" required>
+                <select class="form-control midwidth" id="hs" name="hs" required>
                     <option class="options" value=""></option>
                     <option class="options" value="andrewphill">Andrew P. Hill</option>
                     <option class="options" value="evergreenvalley">Evergreen Valley</option>
@@ -77,7 +77,7 @@
 
             <div class="col-md-7">
                 <label for="grade" class="form-label">Grade</label>
-                <select class="form-control numwidth" id="grade" required>
+                <select class="form-control numwidth" id="grade" name="grade" required>
                     <option class="options" value=""></option>
                     <option class="options" value="9">9th</option>
                     <option class="options" value="10">10th</option>
@@ -88,27 +88,27 @@
 
             <div class="col-md-4">
                 <label for="pathway" class="form-label">What Career Pathway are you in?</label>
-                <input type="text" class="form-control midwidth" id="pathway" required>
+                <input type="text" class="form-control midwidth" id="pathway" name="pathway" required>
             </div>
 
             <div class="col-md-5">
                 <label for="numClasses" class="form-label">How many pathway classes have you taken?</label>
-                <input type="number" class="form-control numwidth" id="numClasses" max=5 required>
+                <input type="number" class="form-control numwidth" id="numClasses" name="numClasses" max=5 min=0 required>
             </div>
 
             <div class="col-md-12">
                 <label for="why" class="form-label">Why would you like to join SJ Works?</label>
-                <textarea class="form-control" id="why" rows="3" required></textarea>
+                <textarea class="form-control" id="why" name="why" rows="3" required></textarea>
             </div>
 
             <div class="col-md-6">
                 <label for="teacher" class="form-label">Teacher's Name</label>
-                <input type="text" class="form-control midwidth" id="teacher" required>
+                <input type="text" class="form-control midwidth" id="teacher" name="teacher" required>
             </div>
 
             <div class="col-md-6">
                 <label for="teacherEmail" class="form-label">Teacher's E-mail</label>
-                <input type="email" class="form-control midwidth" id="teacherEmail" required>
+                <input type="email" class="form-control midwidth" id="teacherEmail" name="teacherEmail" required>
             </div>
 
             <button type="submit" class="btn btn-primary" id="submission" onclick="return confirm('Are you sure you wish to continue?')">Submit</button>
@@ -118,5 +118,8 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="stuform.js"></script>
+
 </body>
 </html>
