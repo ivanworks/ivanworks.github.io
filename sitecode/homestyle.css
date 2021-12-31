@@ -8,7 +8,7 @@
 }
 
 .mission {
-    position: absolute;
+   position: absolute;
 }
 
 .statement{
@@ -16,7 +16,7 @@
     font-family: 'Outfit';
     padding-left: 50px;
     padding-right: 50px;
-    font-size: min(6vw, 100px);
+    font-size: min(8vw, 100px);
     max-width: 1320px;
     text-align: center;
 }
@@ -27,30 +27,24 @@
     color: #ffb703;
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    font-size: 50px;
-    text-transform: uppercase;
-    padding-top: 20px;
+    font-size: min(8vw, 50px);
+    padding-top: 1em;
 }
 
 
 p{
     color: #FEF9EF;
     text-align: justify;
-    font-family: 'Assistant', sans-serif; 
+    font-family: 'Outfit 500', 'Assistant', sans-serif; 
     font-size: 20px;
-    padding: 3%;
-    margin: 0 7%;
+    max-width: min(80vw, 1200px);
+    margin: auto;
+    padding: 3vw 0 5vw 0;
 }
+
 
 #aboutUs{
-    /* background-color: #023047; */ /*original navy*/
     background-color: #1A438B;
-
-}
-
-#about{
-    width: min(100%, 1320px);
-    margin: auto;
 }
 
 /* Our Progress CSS */
@@ -90,8 +84,6 @@ p{
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
-    text-transform: uppercase;
-
     border-radius: 100%;
     background-color: #1A438B;
     padding: 1em;
