@@ -1,0 +1,85 @@
+body{
+    background-color: #1A438B;
+}
+
+/* Navbar CSS */
+
+/* Form */
+
+#panel{
+    background-color: white;
+    width: min(95%, 1320px);
+    margin: auto;
+    box-shadow: 0px 10px 25px rgba(0, 0 ,0, .5);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+#title{
+    font-family: 'Outfit';
+    font-weight: bold;
+    color: rgb(255,166,0);
+    font-size: xxx-large;
+    width: min(100%, 1320px);
+    margin: 20px auto 0px auto;   
+    padding-left: 4%;
+    padding-top: 20px;
+
+}
+
+#line{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.mainform{
+    width: min(99%, 1320px);;
+    margin: 0px auto 0px auto;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.form-label{
+    font-family: 'Lato';
+    font-size: larger;
+    color: rgb(0,68,140);
+}
+
+.form-control{
+    border:  1px solid transparent;
+    background-color: rgba(240,240,240, .7);
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.form-control:focus{
+    border: solid 1px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.midwidth{
+    width: 100%;
+}
+
+.numwidth{
+    width: min(100%, 100px);
+}
+
+.options{
+    color: black;
+    background-color: white;
+}
+
+#submission{
+    border-radius: 5px;
+    font-family: outfit;
+    font-weight: bold;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+
+

@@ -1,0 +1,271 @@
+/* Mission Statement CSS*/
+
+.image{
+    margin-left: -16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission {
+   position: absolute;
+}
+
+.statement{
+    color: white;
+    font-family: 'Outfit';
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: min(8vw, 100px);
+    max-width: 1320px;
+    text-align: center;
+}
+
+/* About Us CSS */
+
+.sectionTitle{
+    color: #ffb703;
+    text-align: center;
+    font-family: 'OUtfit', sans-serif;
+    font-weight: bold;
+    font-size: min(8vw, 50px);
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+}
+
+
+p{
+    color: #FEF9EF;
+    text-align: justify;
+    font-family: 'Lato', sans-serif; 
+    font-size: 20px;
+    max-width: min(80vw, 1200px);
+    margin: auto;
+    padding: 3vw 0 5vw 0;
+}
+
+
+#aboutUs{
+    background-color: #1A438B;
+}
+
+/* Our Progress CSS */
+
+#ourProgress{
+     background-color: #488FE6;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 0;
+    width: min(100%, 1320px);
+    padding-top: 2em;
+    margin: auto;
+}
+
+.statistics {
+    padding: 0em;
+    margin: 0.5em auto;
+    
+}
+
+.statistics h4, .statistics p{
+    text-align: center;
+}
+
+.statistics p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.statistics h4{
+    color: #ffb703;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    border-radius: 100%;
+    background-color: #1A438B;
+    padding: 1em;
+    border-color: #ffb703;
+    border-style: double;
+    border-width: 5px;
+    width: 250px;
+    height: 250px;
+    
+    line-height: 125%;
+    margin: auto;
+}
+
+.statistics h4:hover{
+        box-shadow: 0 0.5em 0.5em -0.4em;
+        transform: translateY(-0.2em);
+        transition: box-shadow 0.5s, transform 0.5s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  @font-face {
+    font-family: noto-sans;
+    src: url("NotoSans-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: oswald;
+    src: url("Oswald-VariableFont_wght.ttf");
+  }
+  
+  footer {
+    background-color: #4299eb;
+    /*background-color: #296ec3; #fafafa*/
+  }
+  
+  #heading1{
+    color: #278ce8;
+  }
+
+  h2 {
+    color: #fafafa;
+    font-family: 'Outfit';
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: auto;
+  }
+  
+  h4 {
+    color: #f89e09;
+    font-family: 'Outfit';
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: lighter;
+  }
+  
+  li {
+    font-family: 'Lato';
+    margin: auto;
+    padding: 3px;
+  }
+  
+  .footer {
+    display: flex;
+    text-align: center;
+    width: min(90vw, 1320px);
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .row {
+    width: min(80vw, 1320px);
+    margin: auto;
+    text-align: center;
+
+  }
+  
+  .images {
+    padding: 10px;
+    height: auto;
+  }
+  
+  .image-links {
+    display: inline-block;
+    padding: 10px;
+    height: 6vh;
+  }
+  
+  #heading1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-size: 300%;
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  #copyright {
+    color: #fafafa;
+    font-family: 'Lato';
+    font-size: 12px;
+  }
+  
+  .quoteBox {
+    background-color: #1a438b;
+    height: fit-content;
+    width: 100%;
+  }
+  
+  .quoteBox1 {
+    background-color: #1a357c;
+    height: fit-content;
+    width: 100%;
+  }
+  
+  #images-box {
+    display: flex;
+    justify-content: center;
+    width: min(90vw, 1320px);
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+
+  }
+  
+  .names {
+    color: #f89e09;
+    font-size: 220%;
+    font-weight: normal;
+    padding-top: 30px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+  }
+  
+  .quote {
+    color: #fafafa;
+    padding-top: 15px;
+    font-family: 'Noto Sans';
+    width: min(90vw, 1320px);
+    margin: auto;
+    font-size: 20px;
+  }
+  
+  .list {
+    list-style: none;
+    margin: auto;
+  }
+  
+  .logo {
+    height: 115px;
+    width: 195px;
+  
+  }
+  
+  .footer-logo {
+    position: absolute;
+  }
+  
+  .nav-div {
+    width: fit-content;
+    margin: auto;
+  }
+
+  ol, ul{
+      padding: 0;
+      margin: auto;
+  }
+
+@media screen and (max-width: 900px){
+    .row{
+        grid-template-columns: repeat(1, 100%);
+    }
+    .footer-logo{
+        position: relative;
+    }
+    .footer{
+        flex-direction: column;
+    }
+}
