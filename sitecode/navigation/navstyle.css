@@ -1,6 +1,5 @@
 .navbar{
     font-family: 'Outfit';
-    font-weight: bold;
     font-size: larger;
     background-color: white;
     box-shadow: 0px 10px 25px rgba(0, 0 ,0, .5);
@@ -11,6 +10,10 @@
 }
 
 #menuLink:hover{
+    color: rgb(0,68,140);
+}
+
+#community:hover{
     color: rgb(0,68,140);
 }
 
@@ -57,9 +60,6 @@
     font-weight: bold;
     align-self: center;
     height: 2.5rem;
-}
-
-.btn{
     border-radius: 0px;
     background-color: rgb(255,166,0);
     border: none;
@@ -67,7 +67,7 @@
     border-radius: 5px;
 }
 
-.btn:hover{
+.something:hover{
     border-radius: 0px;
     background-color: rgb(255,166,0);
     color: rgb(0,68,140);

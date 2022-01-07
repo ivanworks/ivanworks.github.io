@@ -1,0 +1,58 @@
+.option{
+    display: flex;
+    padding: 1em;
+    width: min(80vw, 1320px);
+    margin: auto;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.images{
+    width: min(90vw, 400px);
+}
+
+.cardText{
+    padding-left: 2em;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(0,68,140);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.learnMore{
+    
+    background-color: rgb(255,166,0);
+    border: none;
+
+    margin-top: 1.5em;
+    
+    width: 13em;
+    height: 2.5em;
+    
+    font-size: larger;
+    font-family: "Outfit", sans-serif;
+    transition: .4s;
+}
+
+.learnMore:hover{
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1200px){
+    .option{
+        flex-direction: column;
+    }
+    .cardText{
+        margin-top: 1em;
+        align-items: center;
+        text-align: center;
+    }
+
+    .learnMore{
+        margin-top: .5em;
+        margin-bottom: 2em;
+    }
+}
+
