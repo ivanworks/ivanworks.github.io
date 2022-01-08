@@ -7,8 +7,9 @@ const form = document.querySelector("form");
 const name = document.querySelector("#employerName");
 const email = document.querySelector("#employerEmail");
 const company = document.querySelector("#companyName");
-const why = document.querySelector("#why");
+const how = document.querySelector("#how");
 const numInterns = document.querySelector("#numInterns");
+const sector = document.querySelector("#sector");
 
 
 /* event listener */
@@ -20,8 +21,9 @@ form.addEventListener('submit', function(e){
         	name.value = '';
         	email.value = '';
         	company.value = '';
-        	why.value = '';
+        	how.value = '';
         	numInterns.value = '';
+        	sector.value = '';
         	alert("Application Successfully Submitted! We will contact you soon.");
     	})
         .catch(error => alert('Error!', error.message))

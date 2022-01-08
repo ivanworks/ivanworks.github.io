@@ -41,28 +41,33 @@
 
         <form action="" class="row g-3 mainform" method="post">
             <div class="col-md-6">
-                <label for="employerName" class="form-label">Name of Employer</label>
+                <label for="employerName" class="form-label">Name of Contact</label>
                 <input type="text" class="form-control midwidth" id="employerName" name="employerName" required>
             </div>
 
             <div class="col-md-6">
-                <label for="employerEmail" class="form-label">Email of Employer</label>
+                <label for="employerEmail" class="form-label">Contact Email</label>
                 <input type="email" class="form-control midwidth" id="employerEmail" name="employerEmail" required>
             </div>
 
-            <div class="col-md-5">
+            <div class="col-md-6">
                 <label for="companyName" class="form-label">Name of Company</label>
                 <input type="text" class="form-control midwidth" id="companyName" name="companyName" required>
             </div>
 
-            <div class="col-md-12">
-                <label for="why" class="form-label">Why would you like to join SJ Works?</label>
-                <textarea class="form-control" id="why" name="why" rows="3" required></textarea>
+            <div class="col-md-6">
+                <label for="sector" class="form-label">What is your job sector?</label>
+                <input type="text" class="form-control midwidth" id="sector" name="sector" required>
             </div>
 
             <div class="col">
-                <label for="numInterns" class="form-label">How many interns would you like to employ?</label>
+                <label for="numInterns" class="form-label">How many interns would you like to host?</label>
                 <input type="number" class="form-control numwidth" id="numInterns" name="numInterns" min=0 required>
+            </div>
+
+            <div class="col-md-12">
+                <label for="how" class="form-label">How did you hear about our internship program?</label>
+                <textarea class="form-control" id="how" name="how" rows="3" required></textarea>
             </div>
 
             <button type="submit" class=" col-md-12 btn btn-primary" id="submission" onclick="return confirm('Are you sure you wish to continue?')">Submit</button>
