@@ -1,3 +1,26 @@
+.aboutUs{
+    width: min(80vw, 1320px);
+    margin: auto;
+}
+
+.aboutUs h1{
+    margin-left: 1rem;
+    margin-top: 3rem;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(0,68,140);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.aboutUs p{
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    margin-bottom: 2rem;
+    width: min(60vw, 1300px);
+}
+
 .option{
     display: flex;
     padding: 1em;
