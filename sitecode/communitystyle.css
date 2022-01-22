@@ -1,41 +1,55 @@
-.aboutUs{
+body{
+    background-color: #1A438B;
+}
+
+.sectionCard{
+    background-color:  white;
+    border-radius: 0%;
+    padding: 2% 1% 2% 1%;
     width: min(80vw, 1320px);
     margin: auto;
 }
 
+/* properties taken care of through .sectionCard class)
+.aboutUs{
+}
+.events{
+}
+*/
+
 .aboutUs h1{
-    margin-left: 1rem;
-    margin-top: 3rem;
+    /*margin-left: 1rem;
+    margin-top: 3rem;*/
     font-family: 'Outfit', sans-serif;
     color: rgb(0,68,140);
     font-size: 50px;
     font-weight: bold;
+    margin: 2em 1em 0em 1em;
 }
 
 .aboutUs p{
-    margin-left: 1rem;
-    margin-top: 1.5rem;
+    /*margin-left: 1rem;
+    margin-top: 1.5rem;*/
     font-family: 'Outfit', sans-serif;
     font-size: 20px;
     margin-bottom: 2rem;
     width: min(60vw, 1300px);
+    margin: 1.5em 2em 2em 2em;
 }
 
 .option{
     display: flex;
     padding: 1em;
-    width: min(80vw, 1320px);
-    margin: auto;
     align-items: center;
     flex-shrink: 0;
 }
 
 .images{
     width: min(90vw, 400px);
+    margin: 0em 2em 0em 2em;
 }
 
 .cardText{
-    padding-left: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,7 +89,7 @@
 .upcomingEvents{
     display: flex;
     padding: 1em;
-    width: min(80vw, 1500px);
+    width: min(80vw, 1320px);
     margin: auto;
     justify-content: center;
 }
@@ -118,4 +132,8 @@
         margin-top: .5em;
         margin-bottom: 2em;
     }
+    body{
+        background-color: white;
+    }
 }
+
