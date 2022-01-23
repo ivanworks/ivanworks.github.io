@@ -16,9 +16,8 @@ body{
     border-radius: 5px;
 }
 
-#title{
+h1, h2{
     font-family: 'Outfit';
-    font-weight: bold;
     color: rgb(255,166,0);
     font-size: xxx-large;
     width: min(100%, 1320px);
@@ -26,6 +25,17 @@ body{
     padding-left: 4%;
     padding-top: 20px;
 
+}
+
+#title{
+    font-weight: bold;
+}
+
+h2{
+    font-size: xx-large;
+    font-weight: regular;
+    padding-top: 0px;
+    margin-top:  5px;
 }
 
 #line{
@@ -42,7 +52,7 @@ body{
 
 .form-label{
     font-family: 'Outfit';
-    font-weight: bold;
+    font-weight: 500;
     font-size: larger;
     color: rgb(0,68,140);
 }
