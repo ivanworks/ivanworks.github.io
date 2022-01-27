@@ -30,7 +30,7 @@
     font-family: 'Outfit', sans-serif;
     font-weight: bold;
     font-size: min(8vw, 50px);
-    padding-top: 3vh;
+    padding-top: 5vh;
     padding-bottom: 1vh;
 }
 
@@ -362,4 +362,5 @@ a:visited {
 
 a {
   color: #fafafa;
+  font-size: 18px;
 }
