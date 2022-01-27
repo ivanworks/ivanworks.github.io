@@ -19,6 +19,7 @@
     font-size: min(8vw, 100px);
     max-width: 1320px;
     text-align: center;
+    background-color: rgba(0,0,0,.4);
 }
 
 /* About Us CSS */
