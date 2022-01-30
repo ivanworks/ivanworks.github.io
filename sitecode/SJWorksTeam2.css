@@ -7,14 +7,14 @@ body {
   background-color: #063a85;
 }
 
-.container {
-      font-family: 'Outfit';
+.info{
+    font-family: 'Outfit';
     font-size: 30px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 80px;
     width: 80%;
-    padding: 6% 10% 5% 10%;
+    padding: 5%;
     /*CSS Grid*/
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -23,7 +23,7 @@ body {
     column-gap: 30px;
 }
 
-.border {
+.yellowBorder {
   grid-column: 1 / -1;
   text-align: center;
   justify-self: center;
@@ -79,12 +79,20 @@ h5 {
   background-color: #ffffff;
 }
 
-a:link {
+.info a:link {
   text-decoration: none;
   color: #063a85;
   font-size: clamp(1.5rem, 1.35vw, 2rem);
 }
 
-a:visited {
+.info a:visited {
   color: #063a85;
+}
+
+@media screen and (max-width: 1200px){
+  .info{
+      grid-template-columns: repeat(1, 100%);
+      grid-template-rows: 80px repeat(6, 460px);
+      justify-items: center;
+  }
 }
