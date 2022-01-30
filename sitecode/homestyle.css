@@ -61,6 +61,7 @@ p, .quote{
      background-color: #488FE6;
 }
 
+/*
 .row{
     display: grid;
     grid-template-columns: repeat(3, 33%);
@@ -71,6 +72,7 @@ p, .quote{
     padding-top: 2em;
     margin: auto;
 }
+*/
 
 .statistics {
     padding: 0em;
