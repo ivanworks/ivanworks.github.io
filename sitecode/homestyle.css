@@ -16,8 +16,8 @@
     font-family: 'Outfit';
     padding-left: 50px;
     padding-right: 50px;
-    font-size: min(8vw, 100px);
-    max-width: 1320px;
+    font-size: min(8vw, 70px);
+    max-width: 90vw;
     text-align: center;
     background-color: rgba(0,0,0,.4);
 }
@@ -171,12 +171,6 @@ p, .quote{
     height: auto;
   }
   
-  .image-links {
-    display: inline-block;
-    padding: 10px;
-    height: 6vh;
-  }
-  
   #heading1 {
     text-align: center;
     margin-top: 25px;
@@ -269,6 +263,8 @@ p, .quote{
 
 /* footer css */
 
+/*
+
 footer {
   background-color: #a7a6a6;
   font-family:  Outfit;
@@ -297,13 +293,13 @@ h2 {
 .image-links {
   display: inline-block;
   padding: 10px;
-  height: 6vh;
+  height: 6vw;
 }
 
 .linkedin {
   display: inline-block;
   padding: 10px;
-  height: 7vh;
+  height: 7vw;
   padding-bottom: 15px;
 }
 
@@ -364,3 +360,4 @@ a {
   color: #fafafa;
   font-size: 18px;
 }
+*/
