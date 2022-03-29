@@ -31,7 +31,7 @@
     <div class="info">
       <div class="yellowBorder">San Jose Works Team</div>
 
-      <div class="mem">
+      <div class="mem" data-bs-toggle="modal" data-bs-target="#teamModal" data-bs-whatever="John Doe">
         <img src="unknown.jpg" class="photo" />
         <h5>John Doe</h5>
         <div class="padding">
@@ -48,7 +48,7 @@
         </div>
       </div>
 
-      <div class="mem">
+      <div class="mem" data-bs-toggle="modal" data-bs-target="#teamModal" data-bs-whatever="Jane Doe">
         <img src="unknown.jpg" class="photo" />
         <h5>Jane Doe</h5>
         <div class="padding">
@@ -65,7 +65,7 @@
         </div>
       </div>
 
-      <div class="mem">
+      <div class="mem" data-bs-toggle="modal" data-bs-target="#teamModal" data-bs-whatever="Susan Doe">
         <img src="unknown.jpg" class="photo" />
         <h5>Susan Doe</h5>
         <div class="padding">
@@ -82,7 +82,7 @@
         </div>
       </div>
 
-      <div class="mem">
+      <div class="mem" data-bs-toggle="modal" data-bs-target="#teamModal" data-bs-whatever="Michael Doe">
         <img src="unknown.jpg" class="photo" />
         <h5>Michael Doe</h5>
         <div class="padding">
@@ -99,7 +99,7 @@
         </div>
       </div>
 
-      <div class="mem">
+      <div class="mem" data-bs-toggle="modal" data-bs-target="#teamModal" data-bs-whatever="Steve Doe">
         <img src="unknown.jpg" class="photo" />
         <h5>Steve Doe</h5>
         <div class="padding">
@@ -117,8 +117,8 @@
         </div>
       </div>
 
-      <div class="mem">
-        <img src="unknown.jpg" class="photo" data-bs-toggle="modal" data-bs-target="#teamModal" data-bs-whatever="Jennifer Doe"/>
+      <div class="mem" data-bs-toggle="modal" data-bs-target="#teamModal" data-bs-whatever="Jennifer Doe">
+        <img src="unknown.jpg" class="photo"/>
         <h5>Jennifer Doe</h5>
         <div class="padding">
           <a href="mailto:no_reply@example.com" target="_blank">
@@ -135,10 +135,6 @@
       </div>
 
     </div>
-    
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#teamModal" data-bs-whatever="@mdo">Open modal for @mdo</button>
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#teamModal" data-bs-whatever="@fat">Open modal for @fat</button>
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#teamModal" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button>
 
 <div class="modal fade" id="teamModal" tabindex="-1" aria-labelledby="teamModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -157,12 +153,13 @@
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+           </p>
           </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
+        <!-- <button type="button" class="btn btn-primary">Send message</button> -->
       </div>
     </div>
   </div>
