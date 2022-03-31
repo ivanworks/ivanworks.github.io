@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bank Form</title>
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="forms.css">
+        <link rel="stylesheet" href="../navigation/navstyle.css">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    </head>
+<body>
+    <!-- Navbar -->
+    <div class="sticky-top" id="navig">
+    </div>
+    
+    <script>
+    $(function(){
+      $("#navig").load("../navigation/nav.html");
+    });
+    </script>
+
+    <!-- Form -->
+    <div id="panel" >
+
+    <h1 id="title">ENTER YOUR INFO</h1>
+    <h2>For Students</h2>
+
+    <hr id="line">
+
+        <form action="" class="row g-3 mainform" method="post">
+
+            <div class="col-md-5">
+                <label for="auth" class="form-label">Do you have a checking/savings account?</label>
+                <select class="form-control midwidth" id="hs" name="hs" required>
+                    <option class="options" value="1">Yes</option>
+                    <option class="options" value="2">No</option>
+                    <option class="options" value="3">Both</option>
+                </select>
+            </div>
+
+            <div class="col-md-4">
+                <label for="inst" class="form-label">Who is your financial institution?</label>
+                <input type="text" class="form-control midwidth" id="inst" name="inst" required>
+            </div>
+
+            <div class="col-md-4">
+                <label for="auth" class="form-label">Do you have access to internet/WIFI?</label>
+                <select class="form-control midwidth" id="hs" name="hs" required>
+                    <option class="options" value="1">Yes</option>
+                    <option class="options" value="2">No</option>
+                </select>
+            </div>   
+            
+            <div class="col-md-6">
+                <label for="auth" class="form-label">Do have access to a computer (laptop, desktop, iPad, etc.) ?</label>
+                <select class="form-control midwidth" id="hs" name="hs" required>
+                    <option class="options" value="1">Yes</option>
+                    <option class="options" value="2">No</option>
+                </select>
+            </div>
+
+            <div class="col-md-5">
+                <label for="auth" class="form-label">Are you interested in a?</label>
+                <select class="form-control midwidth" id="hs" name="hs" required>
+                    <option class="options" value="1">Virtual Internship</option>
+                    <option class="options" value="2">In Person</option>
+                    <option class="options" value="3">Does not matter</option>
+                </select>
+            </div>
+
+            <hr id="line2">
+
+            <div class="col-md-5">
+                <label for="auth" class="form-label">Do you have reliable transportation, if your internship requires for you to be onsite?</label>
+                <select class="form-control midwidth" id="hs" name="hs" required>
+                    <option class="options" value="1">Yes</option>
+                    <option class="options" value="2">No</option>
+                </select>
+            </div>
+
+            <div class="col-md-5">
+                <label for="auth" class="form-label">Would you be interested in receiving a mentor throughout your experience?</label>
+                <select class="form-control midwidth" id="hs" name="hs" required>
+                    <option class="options" value="1">Yes</option>
+                    <option class="options" value="2">No</option>
+                </select>
+            </div>
+
+            <button type="submit" class=" col-md-12 btn btn-primary" id="submission" onclick="return confirm('Are you sure you wish to continue?')">Submit</button>
+
+        </form>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="appform.js"></script>
+</body>
+</html>
