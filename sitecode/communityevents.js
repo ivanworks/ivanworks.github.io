@@ -9,6 +9,10 @@ request.addEventListener('load', function(e){
   console.log(this.responseText)
   const data = JSON.parse(this.responseText);
   console.log(data);
+  var title;
+  var image;
+  var date;
+  var location;
   for (var i=1; i<=4; i++){
     console.log(i)
     title = '#title' + i;
@@ -20,6 +24,7 @@ request.addEventListener('load', function(e){
     $(title).text(data.events[i-1].name); 
     $(date).text(data.events[i-1].date);
     $(location).text(data.events[i-1].location);
+    console.log(data.events[i-1].location);
   }
 });
 
