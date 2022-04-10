@@ -1,5 +1,3 @@
-console.log("I have entered the JS file")
-
 // AJAX call
 const request = new XMLHttpRequest();
 request.open('GET', 'events.json');
@@ -24,8 +22,8 @@ request.addEventListener('load', function(e){
     $(title).text(data.events[i-1].name); 
     $(date).text(data.events[i-1].date);
     $(location).text(data.events[i-1].location);
-    console.log(data.events[i-1].location);
   }
+  return false;
 });
 
 
