@@ -1,3 +1,7 @@
+
+/* Input Image Links with the format: https://drive.google.com/uc?export=view&id=XXX
+XXX is the id extracted from the image that was uploaded to google drive */
+
 // AJAX call
 const request = new XMLHttpRequest();
 request.open('GET', 'events.json');

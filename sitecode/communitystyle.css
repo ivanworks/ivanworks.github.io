@@ -146,3 +146,11 @@ body{
     }
 }
 
+
+/* Style modal */
+#modal_container{
+  background-color: white;
+  color:black;
+  height: 20em;
+  width: 20em;
+}
