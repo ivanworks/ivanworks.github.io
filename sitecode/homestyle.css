@@ -193,8 +193,16 @@ p, .quote{
 
   position: absolute;               /* 2 */
   top: 50%;                         /* 3 */
-  transform: translate(0, -50%) }   /* 4 */
+  transform: translate(0, -50%) 
+} 
 
+.pics{
+  width: fit-content;
+  margin: auto;
+}
+
+.internpic{
+  width: min(1500px, 100vw);
 }
   
 footer {
