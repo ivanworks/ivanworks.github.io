@@ -1,6 +1,6 @@
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwkuzGxgPn94UwEAdJKcebyHOkhtODDZb59I4FV17QBPt-sOWBUoEBc5qcajNKmN3vguQ/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzjRdKjEdAeFPw9mNBEwVh5s6g5NqLxMfPc3_9Ca218Uzuvqt3fEPgwseNBGK7COOx2ug/exec'
 const form = document.querySelector("form");
 
 /* inputs */
@@ -8,6 +8,7 @@ const name = document.querySelector("#name");
 const email = document.querySelector("#email");
 const hs = document.querySelector("#hs");
 const grade = document.querySelector("#grade");
+const studentid = document.querySelector("#studentid");
 const pathway = document.querySelector("#pathway");
 const numClasses = document.querySelector("#numClasses");
 const why = document.querySelector("#why");
@@ -25,6 +26,7 @@ form.addEventListener('submit', function(e){
         	email.value = '';
         	hs.value = '';
         	grade.value = '';
+        	studentid.value = '';
         	pathway.value = '';
         	numClasses.value = '';
         	why.value = '';
