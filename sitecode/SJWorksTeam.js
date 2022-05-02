@@ -20,6 +20,7 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
   // Update the modal's content.
   var modalTitle = exampleModal.querySelector('.modal-title');
   var modalBodyDescription = exampleModal.querySelector('.modal-description');
+  var modalRole = exampleModal.querySelector('.modal-role')
   modalTitle.textContent = person;
   modalBodyDescription.textContent = descr;
 
