@@ -1,0 +1,353 @@
+/* Mission Statement CSS*/
+
+.showcase{
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+  }
+  
+  .showcase video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #9cf5ff;
+    mix-blend-mode: overlay;
+  }
+
+  /* Flex work showcase */
+  .work-flex-container, .project{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    width:85%;
+    margin: auto;
+  }
+
+  .work-flex-container{
+    flex-direction: column;
+  }
+  .project{
+    flex-direction: row;
+    width: 100%;
+  }
+  .project h2{
+    padding: 4em;
+    flex: 20%;
+  }
+  
+  /* ORIGINAL */
+  
+  .image{
+      margin-left: -16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .mission {
+     position: absolute;
+  }
+  
+  .statement{
+      color: white;
+      font-family: 'Outfit';
+      padding-left: 50px;
+      padding-right: 50px;
+      font-size: min(8vw, 70px);
+      max-width: 90vw;
+      text-align: center;
+      background-color: rgba(244, 0, 73, 0.832);
+  }
+  
+  /* About Us CSS */
+  
+  .sectionTitle{
+      color: #fffcf5;
+      text-align: center;
+      font-family: 'Outfit', sans-serif;
+      font-weight: bold;
+      font-size: min(8vw, 50px);
+      padding-top: 5vh;
+      padding-bottom: 1vh;
+  }
+  
+  p, .quote{
+      color: #FEF9EF;
+      text-align: justify;
+      font-family: 'Outfit', sans-serif; 
+      font-size: min(4.5vw, 20px);
+      max-width: min(80vw, 1320px);
+      margin: auto;
+      padding: 3vw 0 5vw 0;
+  }
+  
+  .quote {
+      padding-top: 15px;
+  }
+  
+  #aboutUs{
+      background-color: rgba(244, 0, 73, 0.832);
+  }
+  
+  .companies{
+    height: fit-content;
+    padding-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .compimgs{
+    max-width: min(97vw, 1320px);
+    margin: auto;
+    margin-top: 2vh;
+  }
+  
+  /* Our Progress CSS */
+  
+  #ourProgress{
+       background-color: #488FE6;
+  }
+  
+  
+  .row{
+      display: grid;
+      grid-template-columns: repeat(3, 33%);
+      justify-content: center;
+      padding: 0;
+      margin-bottom: 0;
+      width: min(100%, 1320px);
+      padding-top: 2em;
+      margin: auto;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  .testimonies{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    margin-bottom: -3em;
+  }
+  
+  .testCard{
+    margin: auto;
+    margin-bottom: 3em;
+    height: 565px;
+    width: 413px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(184, 182, 182);
+  
+    text-align: center;
+    font-family: Outfit;
+    font-size: 20px;
+    color: #1A438B;
+  }
+  
+  .pfp{
+    border: solid #ffb703;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    margin-top: -125px;
+  
+    overflow: hidden;
+  
+    margin-left: 146px;
+  }
+  
+  .pfpimg{
+    width: 100%;
+  }
+  
+  .testCard2{
+    text-align: center;
+    vertical-align: auto;
+    margin: auto;
+    margin-bottom: 70px;
+    height: 75%;
+    width: 413px;
+    background-color: #1A438B;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(228, 226, 226);
+  
+    position: relative;
+  }
+  
+  .text{
+  
+    text-align: center;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+  
+    position: absolute;               /* 2 */
+    top: 50%;                         /* 3 */
+    transform: translate(0, -50%)  /* 4 */
+  
+  }
+    
+  footer {
+    background-color: #4299eb;
+    /*background-color: #296ec3; #fafafa*/
+  }
+    
+  #heading1{
+    color: #278ce8;
+  }
+  
+  h2 {
+    color: #fafafa;
+    font-family: 'Outfit';
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: auto;
+  }
+  
+  h3 + h4 {
+    color: #f89e09;
+    font-family: 'Outfit';
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: lighter;
+    max-width: min(80vw, 1320px);
+    margin: auto;
+  }
+  
+  li {
+    font-family: 'Lato';
+    margin: auto;
+    padding: 3px;
+  }
+  
+  .footer {
+    display: flex;
+    text-align: center;
+    width: min(90vw, 1320px);
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .img-row {
+    width: min(80vw, 1320px);
+    margin: auto;
+    text-align: center;
+  }
+  
+  .images {
+    padding: 10px;
+    height: auto;
+  }
+  
+  #heading1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-size: 300%;
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  #copyright {
+    color: #fafafa;
+    font-family: 'Lato';
+    font-size: 12px;
+  }
+  
+  .quoteBox {
+    background-color: #1a438b;
+    height: fit-content;
+    width: 100%;
+  }
+  
+  .quoteBox1 {
+    background-color: #1a357c;
+    height: fit-content;
+    width: 100%;
+  }
+  
+  #images-box {
+    display: flex;
+    justify-content: center;
+    width: min(90vw, 1320px);
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+  
+  }
+  
+  .names {
+    color: #f89e09;
+    font-size: 220%;
+    font-weight: normal;
+    padding-top: 30px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+  }
+  
+  .list {
+    list-style: none;
+    margin: auto;
+  }
+  
+  .logo {
+    height: 115px;
+    width: 195px;
+  
+  }
+  
+  .footer-logo {
+    position: absolute;
+  }
+  
+  .nav-div {
+    width: fit-content;
+    margin: auto;
+  }
+  
+  ol, ul{
+      padding: 0;
+      margin: auto;
+  }
+  
+  @media screen and (max-width: 900px){
+    .row{
+        grid-template-columns: repeat(1, 100%);
+    }
+    .footer-logo{
+        position: relative;
+    }
+    .footer{
+        flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width:  600px){
+    p{
+        text-align: left;
+    }
+  }
+  
+  
