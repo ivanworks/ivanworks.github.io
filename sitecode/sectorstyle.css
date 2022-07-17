@@ -11,7 +11,7 @@
     background: #111;
   }
   
-  .showcase video{
+  .showcase img{
     position: absolute;
     top: 0;
     left: 0;
@@ -20,6 +20,14 @@
     object-fit: cover;
     opacity: 0.8;
   }
+
+  .image{
+    margin-left: -16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
   .overlay{
     position: absolute;
     top: 0;
@@ -35,7 +43,7 @@
     display:flex;
     justify-content: center;
     align-items: flex-start;
-    width:85%;
+    width:88%;
     margin: auto;
   }
 
@@ -48,17 +56,9 @@
   }
   .project h2{
     padding: 4em;
-    flex: 20%;
   }
   
   /* ORIGINAL */
-  
-  .image{
-      margin-left: -16px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
   
   .mission {
      position: absolute;
