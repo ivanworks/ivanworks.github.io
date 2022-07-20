@@ -34,7 +34,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #9cf5ff;
+    background: #FFD0BD;
     mix-blend-mode: overlay;
   }
 
@@ -43,19 +43,36 @@
     display:flex;
     justify-content: center;
     align-items: flex-start;
-    width:88%;
     margin: auto;
   }
 
   .work-flex-container{
     flex-direction: column;
+    width:100%;
   }
   .project{
     flex-direction: row;
     width: 100%;
   }
   .project h2{
-    padding: 4em;
+    background-color: #f21f5f;
+    padding: 1.5em 2em 1.5em 2em;
+    text-align: center;
+    margin-top: 3em;
+    width: 75%;
+    color: white;
+  }
+
+  .project p{
+    background-color: #f21f5f;
+    padding: 2em;
+    /*margin-top: 2em;*/
+    color: white;
+    width: 75%;
+  }
+
+  .description{
+    z-index: 1;
   }
   
   /* ORIGINAL */
