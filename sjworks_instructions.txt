@@ -1,0 +1,39 @@
+
+INSTRUCTIONS FOR VIEWING SAN JOSE WORKS WEBSITE ON LOCAL DEVICE
+
+Uncompress the sitecode zip file. This should result in a sitecode folder on your computer which contains all the files necessary for the website.
+
+TO VIEW THE FULL WEBSITE FUNCTIONALITY (INCLUDING NAVIGATION):
+
+Set up the local web server on your device (usually via localhost), then open the home.html file on your browser. You should see the home page and can navigate through the different pages with the navigation bar.
+
+TO VIEW EACH INDIVIDUAL PAGE (WITHOUT LOCALHOST SETUP):
+
+If you are unable to set up your local web server to view the website, then you may not be able to use the navigation bar. However, you can still view each individual page by opening its corresponding file in your browser. Below is the page and the file you will need to open in order to see the page:
+ 
+Home Page - home.html
+
+Community Page - community.html
+
+Team Page - SJWorksTeam2.html
+
+To view the pages with forms, navigate to the pages folder inside the sitecode folder, then open the corresponding files in your browser:
+
+Community Help Form - communityhelp.html
+
+Student Sign-up Form - studentform.html
+
+Employer Sign-up Form - employerform.html
+
+Application Forms:
+Application - appform.html
+Banking Information Form - bankform.html
+ID Form - idform.html
+
+
+
+
+
+
+
+
