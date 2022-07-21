@@ -55,8 +55,8 @@
     width: 100%;
   }
   .project h2{
-    background-color: #f21f5f;
-    padding: 1.5em 2em 1.5em 2em;
+    /*background-color: #f21f5f;*/
+    /*padding: 1.5em 2em 1.5em 2em;*/
     text-align: center;
     margin-top: 3em;
     width: 75%;
@@ -64,8 +64,8 @@
   }
 
   .project p{
-    background-color: #f21f5f;
-    padding: 2em;
+    /*background-color: #f21f5f;*/
+    /*padding: 2em;*/
     /*margin-top: 2em;*/
     color: white;
     width: 75%;
@@ -73,6 +73,13 @@
 
   .description{
     z-index: 1;
+    margin-top: 2.5em; 
+    background-image: url("pinksquarewave.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width:30%;
+    height:50%;
   }
   
   /* ORIGINAL */
