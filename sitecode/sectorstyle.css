@@ -53,6 +53,7 @@
   .project{
     flex-direction: row;
     width: 100%;
+    margin: 2em;
   }
   .project h2{
     /*background-color: #f21f5f;*/
@@ -373,5 +374,21 @@
         text-align: left;
     }
   }
+  
+  /* Media query addresing projects*/
+
+  @media (max-width: 1200px) { 
+    /* .work-flex-container{
+      width: 50%; 
+    } */
+    .project img{
+      width: 75%;
+    }
+    .description {
+      width: 100%;
+    }
+
+  }
+
   
   
