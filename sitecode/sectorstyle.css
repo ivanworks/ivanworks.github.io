@@ -2,23 +2,19 @@
 
 .showcase{
     right: 0;
-    width: 100%;
-    min-height: 100vh;
+   /* width: 100%; */
+    height: 100vh;
     padding: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #111;
-  }
-  
-  .showcase img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.8;
+    background: #F40048;
+
+    background-image: url('business_main.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
   }
 
   .image{
