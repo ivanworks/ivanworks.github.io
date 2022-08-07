@@ -47,22 +47,22 @@
         <form action="" class="row g-3 mainform" method="post">
             <div class="col-md-2">
                 <label for="firstName" class="form-label">First Name</label>
-                <input type="text" class="form-control midwidth" id="employerName" name="employerName" required>
+                <input type="text" class="form-control midwidth" id="firstName" name="firstName" required>
             </div>
 
             <div class="col-md-2">
                 <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control midwidth" id="employerName" name="employerName" required>
+                <input type="text" class="form-control midwidth" id="lastName" name="lastName" required>
             </div>
 
             <div class="col-md-1">
                 <label for="middleName" class="form-label">MI</label>
-                <input type="text" class="form-control midwidth" id="employerName" name="employerName" required>
+                <input type="text" class="form-control midwidth" id="middleName" name="middleName" required>
             </div>
 
             <div class="col-md-2">
-                <label for="hs" class="form-label">Gender</label>
-                <select class="form-control midwidth" id="hs" name="hs" required>
+                <label for="gender" class="form-label">Gender</label>
+                <select class="form-control midwidth" id="gender" name="gender" required>
                     <option class="options" value=""></option>
                     <option class="options" value="male">Male</option>
                     <option class="options" value="female">Female</option>
@@ -72,32 +72,32 @@
 
             <div class="col-md-4">
                 <label for="dob" class="form-label">Date of Birth (MM/DD/YYYY)</label>
-                <input type="text" class="form-control midwidth" id="sector" name="sector" required>
+                <input type="text" class="form-control midwidth" id="dob" name="dob" required>
             </div>
 
             <div class="col-md-4">
                 <label for="address" class="form-label">Address</label>
-                <input type="text" class="form-control midwidth" id="sector" name="sector" required>
+                <input type="text" class="form-control midwidth" id="address" name="address" required>
             </div>
 
             <div class="col-md-3">
                 <label for="city" class="form-label">City</label>
-                <input type="text" class="form-control midwidth" id="sector" name="sector" required>
+                <input type="text" class="form-control midwidth" id="city" name="city" required>
             </div>
 
             <div class="col-md-4">
                 <label for="zip" class="form-label">Zip Code</label>
-                <input type="number" class="form-control numwidth" id="numClasses" name="numClasses" required>
+                <input type="number" class="form-control numwidth" id="zip" name="zip" required>
             </div>
 
             <div class="col-md-3">
-                <label for="phone1" class="form-label">Home Phone</label>
-                <input type="text" class="form-control midwidth" id="sector" name="sector" required>
+                <label for="homephone" class="form-label">Home Phone</label>
+                <input type="text" class="form-control midwidth" id="homephone" name="homephone" required>
             </div>
 
             <div class="col-md-3">
-                <label for="phone2" class="form-label">Cell Phone</label>
-                <input type="text" class="form-control midwidth" id="sector" name="sector" required>
+                <label for="cellphone" class="form-label">Cell Phone</label>
+                <input type="text" class="form-control midwidth" id="cellphone" name="cellphone" required>
             </div>
 
             <div class="col-md-4">
@@ -106,23 +106,24 @@
             </div>
 
             <div class="col-md-3">
-                <label for="contName" class="form-label">Secondary Contact Name</label>
-                <input type="text" class="form-control midwidth" id="employerName" name="employerName" required>
+                <label for="contactName" class="form-label">Secondary Contact Name</label>
+                <input type="text" class="form-control midwidth" id="contactName" name="contactName" required>
             </div>
 
             <div class="col-md-3">
                 <label for="relation" class="form-label">Relation to You</label>
-                <input type="text" class="form-control midwidth" id="employerName" name="employerName" required>
+                <input type="text" class="form-control midwidth" id="relation" name="relation" required>
             </div>
 
             <div class="col-md-3">
-                <label for="contPhone" class="form-label">Contact Phone</label>
-                <input type="text" class="form-control midwidth" id="sector" name="sector" required>
+                <label for="contactPhone" class="form-label">Contact Phone</label>
+                <input type="text" class="form-control midwidth" id="contactPhone" name="contactPhone" required>
             </div>
 
             <div class="col-md-4">
                 <label for="auth" class="form-label">Are You Authorized to Work in the US?</label>
-                <select class="form-control midwidth" id="hs" name="hs" required>
+                <select class="form-control midwidth" id="auth" name="auth" required>
+                    <option class="options" value=""></option>
                     <option class="options" value="yes">Yes</option>
                     <option class="options" value="no">No</option>
                 </select>
@@ -130,7 +131,8 @@
 
             <div class="col-md-3">
                 <label for="ethnicity" class="form-label">What is your ethnicity?</label>
-                <select class="form-control midwidth" id="hs" name="hs" required>
+                <select class="form-control midwidth" id="ethnicity" name="ethnicity" required>
+                    <option class="options" value=""></option>
                     <option class="options" value="1">Asian/Pacific Islander</option>
                     <option class="options" value="2">Black or African American</option>
                     <option class="options" value="3">American Indian or Alaskan Native</option>
@@ -144,7 +146,8 @@
 
             <div class="col-md-6">
                 <label for="CalFresh" class="form-label">Do you or your family recieve CalFresh (Food Stamp) benefits?</label>
-                <select class="form-control midwidth" id="hs" name="hs" required>
+                <select class="form-control midwidth" id="CalFresh" name="CalFresh" required>
+                    <option class="options" value=""></option>
                     <option class="options" value="y">Yes</option>
                     <option class="options" value="n">No</option>
                 </select>
@@ -152,7 +155,8 @@
 
             <div class="col-md-6">
                 <label for="lunch" class="form-label">Do you Qualify for free & reduced lunch?</label>
-                <select class="form-control midwidth" id="hs" name="hs" required>
+                <select class="form-control midwidth" id="lunch" name="lunch" required>
+                    <option class="options" value=""></option>
                     <option class="options" value="y">Yes</option>
                     <option class="options" value="n">No</option>
                     <option class="options" value="n/a">N/A</option>
@@ -161,7 +165,8 @@
 
             <div class="col-md-6">
                 <label for="CalWorks" class="form-label">Do you or your family receive CalWORKS benefits?</label>
-                <select class="form-control midwidth" id="hs" name="hs" required>
+                <select class="form-control midwidth" id="CalWorks" name="CalWorks" required>
+                    <option class="options" value=""></option>
                     <option class="options" value="y">Yes</option>
                     <option class="options" value="n">No</option>
                 </select>
@@ -169,7 +174,8 @@
 
             <div class="col-md-6">
                 <label for="pregnant" class="form-label">Are you pregnant or do you have any children?</label>
-                <select class="form-control midwidth" id="hs" name="hs" required>
+                <select class="form-control midwidth" id="pregnant" name="pregnant" required>
+                    <option class="options" value=""></option>
                     <option class="options" value="y">Yes</option>
                     <option class="options" value="n">No</option>
                 </select>
@@ -179,12 +185,13 @@
 
             <div class="col-md-4">
                 <label for="language" class="form-label">Primary Language Spoken at Home</label>
-                <input type="text" class="form-control midwidth" id="sector" name="sector" required>
+                <input type="text" class="form-control midwidth" id="language" name="language" required>
             </div>
 
             <div class="col-md-4">
                 <label for="engSkills" class="form-label">English Skills Reading/Writing Limited:</label>
-                <select class="form-control midwidth" id="hs" name="hs" required>
+                <select class="form-control midwidth" id="engSkills" name="engSkills" required>
+                    <option class="options" value=""></option>
                     <option class="options" value="y">Yes</option>
                     <option class="options" value="n">No</option>
                 </select>
@@ -192,7 +199,8 @@
 
             <div class="col-md-4">
                 <label for="homeless" class="form-label">Are you homeless or at risk of being so?</label>
-                <select class="form-control midwidth" id="hs" name="hs" required>
+                <select class="form-control midwidth" id="homeless" name="homeless" required>
+                    <option class="options" value=""></option>
                     <option class="options" value="y">Yes</option>
                     <option class="options" value="n">No</option>
                 </select>
@@ -200,7 +208,8 @@
 
             <div class="col-md-4">
                 <label for="foster" class="form-label">Are you now or have you been a part of the Foster Care System?</label>
-                <select class="form-control midwidth" id="hs" name="hs" required>
+                <select class="form-control midwidth" id="foster" name="foster" required>
+                    <option class="options" value=""></option>
                     <option class="options" value="y">Yes</option>
                     <option class="options" value="n">No</option>
                 </select>
@@ -210,15 +219,17 @@
 
             <div class="col-md-4">
                 <label for="pathway" class="form-label">Are you or have you taken a career pathway course?</label>
-                <select class="form-control midwidth" id="hs" name="hs" required>
+                <select class="form-control midwidth" id="pathway" name="pathway" required>
+                    <option class="options" value=""></option>
                     <option class="options" value="y">Yes</option>
                     <option class="options" value="n">No</option>
                 </select>
             </div>
 
             <div class="col-md-6">
-                <label for="wouldYou" class="form-label">If, NO would you like to learn more about career pathway programs offered in your high school?</label>
-                <select class="form-control midwidth" id="hs" name="hs" required>
+                <label for="learnCareers" class="form-label">If, NO would you like to learn more about career pathway programs offered in your high school?</label>
+                <select class="form-control midwidth" id="learnCareers" name="learnCareers" required>
+                    <option class="options" value=""></option>
                     <option class="options" value="y">Yes</option>
                     <option class="options" value="n">No</option>
                     <option class="options" value="n/a">N/A</option>
@@ -227,7 +238,8 @@
 
             <div class="col-md-6">
                 <label for="criminal" class="form-label">Have you ever been convicted of a criminal offence in a court of law?</label>
-                <select class="form-control midwidth" id="hs" name="hs" required>
+                <select class="form-control midwidth" id="criminal" name="criminal" required>
+                    <option class="options" value=""></option>
                     <option class="options" value="y">Yes</option>
                     <option class="options" value="n">No</option>
                 </select>
@@ -237,7 +249,8 @@
 
             <div class="col-md-6">
                 <label for="school" class="form-label">Are you currently attending school?</label>
-                <select class="form-control midwidth" id="hs" name="hs" required>
+                <select class="form-control midwidth" id="school" name="school" required>
+                    <option class="options" value=""></option>
                     <option class="options" value="y">Yes</option>
                     <option class="options" value="n">No</option>
                 </select>
@@ -269,19 +282,19 @@
 
             <div class="col-md-3">
                 <label for="stuID" class="form-label">Student ID:</label>
-                <input type="text" class="form-control midwidth" id="sector" name="sector" minlength="6" maxlength="8" required>
+                <input type="text" class="form-control midwidth" id="stuID" name="stuID" minlength="6" maxlength="8" required>
             </div>
 
             <div class="col-md-4">
-                <label for="recent" class="form-label">(Expected) Graduation Year</label>
-                <input type="text" class="form-control midwidth" id="sector" name="sector" required>
+                <label for="gradYear" class="form-label">(Expected) Graduation Year</label>
+                <input type="text" class="form-control midwidth" id="gradYear" name="gradYear" required>
             </div>
 
             <hr id="line2">
 
             <div class="col-md-8">
-                <label for="why" class="form-label">How did you hear about SJ Works?</label>
-                <textarea class="form-control" id="why" name="why" rows="1" required></textarea>
+                <label for="howSJWorks" class="form-label">How did you hear about SJ Works?</label>
+                <textarea class="form-control" id="howSJWorks" name="howSJWorks" rows="1" required></textarea>
             </div>
 
             <button type="submit" class=" col-md-12 btn btn-primary" id="submission" onclick="return confirm('Are you sure you wish to continue?')">Submit</button>
