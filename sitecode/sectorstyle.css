@@ -50,7 +50,8 @@
   .project{
     flex-direction: row;
     width: 100%;
-    margin: 2em;
+    margin-top: 2em;
+ 
   }
 
   .project img{
@@ -83,6 +84,19 @@
     background-size: cover; /* Resize the background image to cover the entire container */
     width:30%;
     height:50%;
+    margin-right: -8%;
+  }
+
+  .description1{
+    z-index: 1;
+    margin-top: 2.5em; 
+    background-image: url("pinksquarewave.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width:30%;
+    height:50%;
+    margin-left: -8%;
   }
   
   /* ORIGINAL */
@@ -319,5 +333,22 @@
 
   }
 
+  @media (max-width: 1200px) {
+    .hidden-xs {
+      display: none !important;
+    }
+
+    .description{
+      width: 80%;
+      margin: auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .description1{
+      width: 80%;
+      margin: auto;
+    }
+  }
   
   
