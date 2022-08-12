@@ -171,19 +171,110 @@ p, .quote{
   margin-bottom: -3em;
 }
 
-.testCard{
-  margin: auto;
-  margin-bottom: 3em;
-  height: 565px;
-  width: 95%;
-  max-width: 413px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 10px rgb(184, 182, 182);
+.grid-wrap {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+ 
+.grid-wrap2 {
+  box-sizing: border-box;
+  padding: 10px;
+  background: #f3ffe0;
+}
 
-  text-align: center;
+.flex-wrap {
+	display: flex;
+  box-sizing: border-box;
+  width: 50%; padding: 10px;
+  background: #ffe2e0;
+}
+
+ .container {
+        display: flex;
+	 align-content: center;
+	 align-items: center;
+justify-content: center;
+        flex-template-columns: 500px 500px; 
+        flex-template-rows: 500px;
+        flex-column-gap: 5px;
+	 text-align: center;
   font-family: Outfit;
-  font-size: 20px;
+  font-size: 48px;
   color: #1A438B;
+	 padding-left: inherit;
+	 	 padding-right: inherit;
+	 padding-top: 10px;
+	 padding-bottom: 10px;
+
+      }
+      
+      .item {
+		  	 margin: auto;
+		padding-top: 20px;
+		  padding-left: 40px;
+		  padding-right: 40px;
+		  padding-bottom: 20px;
+		  align-content: center;
+	 align-items: center;
+      background: #FFA601;
+ 
+       
+      }
+	.item-image {
+			 margin: auto;
+		  align-content: center;
+	 align-items: center;
+		transition: transform .25s ease-out;
+}
+
+.item-image:hover {
+  item-shadow: 0px 2px 25px 0px rgba(0, 0, 0, 0.25);
+	transform: scale(1.15);
+}
+
+.button {
+	margin-top: 20px;
+	margin-bottom: auto;
+		margin-right: auto;
+	margin-left: auto;
+  position: relative;
+
+	display: flex;
+	align-content: center;
+	 align-items: center;
+	  justify-content: center;
+  background-color: #FFFFFF;
+  border: none;
+  font-size: 28px;
+  color: #1A438B;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #1A438B;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
 }
 
 .pfp{
@@ -200,20 +291,6 @@ p, .quote{
 
 .pfpimg{
   width: 100%;
-}
-
-.testCard2{
-  text-align: center;
-  vertical-align: auto;
-  margin: auto;
-  margin-bottom: -70px;
-  height: 75%;
-  width: 100%;
-  background-color: #1A438B;
-  border-radius: 5px;
-  box-shadow: 2px 2px 10px rgb(228, 226, 226);
-
-  position: relative;
 }
 
 .text{
