@@ -1,6 +1,6 @@
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwuoyVueJgU_-3IlZ4EXZDglTErFK2Z9aIsfpP7KDTpmbWObIuKDnv5SLejzZ1Kx44jDA/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyVqyiywomK3EiWXnEASDB-vfJWL1X1WFgEneSl7erF-aVL53l0bceUPj-DhgDHolOo-Q/exec'
 const form = document.querySelector("form");
 
 /* inputs */
