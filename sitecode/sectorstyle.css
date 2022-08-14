@@ -45,7 +45,7 @@
   .work-flex-container{
     flex-direction: column;
     width:100%;
-    background-image: linear-gradient(to right, #FFF4D6, #FFE9AD);
+    background-image: linear-gradient(to right, #2EC4B6, #2bbaad);
   }
   .project{
     flex-direction: row;
@@ -85,6 +85,7 @@
     width:30%;
     height:50%;
     margin-right: -8%;
+    align-self: center;
   }
 
   .description1{
@@ -97,6 +98,7 @@
     width:30%;
     height:50%;
     margin-left: -8%;
+    align-self: center;
   }
   
   /* ORIGINAL */
@@ -127,7 +129,7 @@
   }
   
   #aboutUs{
-      background-color: #2EC4B6;
+      background-color: #444c52;
   }
   
   .companies{
@@ -324,9 +326,7 @@
   /* Media query addresing projects*/
 
   @media (max-width: 1200px) { 
-    /* .work-flex-container{
-      width: 50%; 
-    } */
+
     .description {
       width: 100%;
     }
