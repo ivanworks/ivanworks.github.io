@@ -1,0 +1,369 @@
+/* Mission Statement CSS*/
+
+.showcase{
+    right: 0;
+  /*  width: auto; */
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #343434;
+
+    background-image: url('engineering_main.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .image{
+    margin-left: -16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFD0BD;
+    mix-blend-mode: overlay;
+  }
+
+  /* Flex work showcase */
+  .work-flex-container, .project{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+  }
+
+  .work-flex-container{
+    flex-direction: column;
+    width:100%;
+    background-image: linear-gradient(to right, #A49E8D, #A49E8D);
+  }
+  .project{
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2em;
+ 
+  }
+
+  .project img{
+    width: 75vw;
+  }
+
+  .project h2{
+    /*background-color: #f21f5f;*/
+    /*padding: 1.5em 2em 1.5em 2em;*/
+    text-align: center;
+    margin-top: 3em;
+    width: 75%;
+    color: white;
+  }
+
+  .project p{
+    /*background-color: #f21f5f;*/
+    /*padding: 2em;*/
+    /*margin-top: 2em;*/
+    color: white;
+    width: 75%;
+  }
+
+  .description{
+    z-index: 1;
+    margin-top: 2.5em; 
+    background-image: url("greensquarewave.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width:30%;
+    height:50%;
+    margin-right: -8%;
+    align-self: center;
+  }
+
+  .description1{
+    z-index: 1;
+    margin-top: 2.5em; 
+    background-image: url("greensquarewave.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width:30%;
+    height:50%;
+    margin-left: -8%;
+    align-self: center;
+  }
+  
+  /* ORIGINAL */
+  /* About Us CSS */
+  
+  .sectionTitle{
+      color: #fffcf5;
+      text-align: center;
+      font-family: 'Outfit', sans-serif;
+      font-weight: bold;
+      font-size: min(8vw, 50px);
+      padding-top: 5vh;
+      padding-bottom: 1vh;
+  }
+  
+  p, .quote{
+      color: #FEF9EF;
+      text-align: justify;
+      font-family: 'Outfit', sans-serif; 
+      font-size: min(4.5vw, 20px);
+      max-width: min(80vw, 1320px);
+      margin: auto;
+      padding: 3vw 0 5vw 0;
+  }
+  
+  .quote {
+      padding-top: 15px;
+  }
+  
+  .abtsect{
+      background-color: #54786E;
+      text-align: center;
+  }
+  
+  .companies{
+    height: fit-content;
+    padding-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .compimgs{
+    max-width: min(97vw, 1320px);
+    margin: auto;
+    margin-top: 2vh;
+  }
+  
+  /* Our Progress CSS */
+  
+  #ourProgress{
+       background-color: #488FE6;
+  }
+  
+  
+  .row{
+      display: grid;
+      grid-template-columns: repeat(3, 33%);
+      justify-content: center;
+      padding: 0;
+      margin-bottom: 0;
+      width: min(100%, 1320px);
+      padding-top: 2em;
+      margin: auto;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  .text{
+  
+    text-align: center;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+  
+    position: absolute;               /* 2 */
+    top: 50%;                         /* 3 */
+    transform: translate(0, -50%)  /* 4 */
+  
+  }
+    
+  footer {
+    background-color: #4299eb;
+    /*background-color: #296ec3; #fafafa*/
+  }
+    
+  #heading1{
+    color: #278ce8;
+  }
+  
+  h2 {
+    color: #fafafa;
+    font-family: 'Outfit';
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: auto;
+  }
+  
+  h3 + h4 {
+    color: #f89e09;
+    font-family: 'Outfit';
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: lighter;
+    max-width: min(80vw, 1320px);
+    margin: auto;
+  }
+  
+  li {
+    font-family: 'Lato';
+    margin: auto;
+    padding: 3px;
+  }
+  
+  .footer {
+    display: flex;
+    text-align: center;
+    width: min(90vw, 1320px);
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .img-row {
+    width: min(80vw, 1320px);
+    margin: auto;
+    text-align: center;
+  }
+  
+  .images {
+    padding: 10px;
+    height: auto;
+  }
+  
+  #heading1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-size: 300%;
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  #copyright {
+    color: #fafafa;
+    font-family: 'Lato';
+    font-size: 12px;
+  }
+  
+  .quoteBox {
+    background-color: #1a438b;
+    height: fit-content;
+    width: 100%;
+  }
+  
+  .quoteBox1 {
+    background-color: #1a357c;
+    height: fit-content;
+    width: 100%;
+  }
+  
+  #images-box {
+    display: flex;
+    justify-content: center;
+    width: min(90vw, 1320px);
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+  
+  }
+  
+  .names {
+    color: #f89e09;
+    font-size: 220%;
+    font-weight: normal;
+    padding-top: 30px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+  }
+  
+  .list {
+    list-style: none;
+    margin: auto;
+  }
+  
+  .logo {
+    height: 115px;
+    width: 195px;
+  
+  }
+  
+  .footer-logo {
+    position: absolute;
+  }
+  
+  .nav-div {
+    width: fit-content;
+    margin: auto;
+  }
+  
+  ol, ul{
+      padding: 0;
+      margin: auto;
+  }
+  
+  .learnMore {
+    background-color: rgb(255,166,0);
+    border: none;
+    border-radius: 0px;
+    margin: 1.5em 0em 3em 0em;
+    width: 13em;
+    height: 2.5em;
+    font-size: x-large;
+    font-family: "Outfit", sans-serif;
+    font-weight: normal;
+    transition: .4s;
+  }
+
+
+
+  @media screen and (max-width: 900px){
+    .row{
+        grid-template-columns: repeat(1, 100%);
+    }
+    .footer-logo{
+        position: relative;
+    }
+    .footer{
+        flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width:  600px){
+    p{
+        text-align: left;
+    }
+  }
+  
+  /* Media query addresing projects*/
+
+  @media (max-width: 1200px) { 
+
+    .description {
+      width: 100%;
+    }
+
+  }
+
+  @media (max-width: 1200px) {
+    .hidden-xs {
+      display: none !important;
+    }
+
+    .description{
+      width: 80%;
+      margin: auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .description1{
+      width: 80%;
+      margin: auto;
+    }
+  }
+  
+  

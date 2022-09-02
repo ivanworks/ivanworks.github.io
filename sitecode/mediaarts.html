@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" /> 
+    <title>San Jose Works</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="sectorstyle-arts.css">
+    <link rel="stylesheet" href="navigation/navstyle.css">
+    <link rel="stylesheet" href="footer/footerstyle.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+           <!-- Adding custom fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap&" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="sticky-top" id="navig">
+  </div>
+  
+  <script>
+  $(function(){
+    $("#navig").load("navigation/nav.html");
+  });
+  </script>
+  <section class="showcase image" style="background-image: url('arts_main.jpg');">
+  </section>
+
+  <div class="abtsect">
+    <h3 class="sectionTitle">OUR WORK</h3>
+
+    <img src="sjworks.png" alt="SJ works logo" width="125" height="150" style="display: block; margin-left: auto;margin-right: auto;
+      -webkit-filter: drop-shadow(2px 1px 0 white)
+              drop-shadow(-1px -1px 0 white);
+      filter: drop-shadow(2px 1px 0 white) 
+          drop-shadow(-1px -1px 0 white);">
+
+
+    <p id="about">
+      Description: 
+
+      Through out a 6 week internship, interns were placed within a company where they were able to work alongside people in the industry and other fellow interns.They assisted companies both big and small in different projects ranging in size as well, and being able to learn new skills along the way.
+      
+      Below are examples of projects that these interns have completed within the 6 weeks with a brief description of what their project entailed. Interns worked on projects that were related to art and media which included video editing, video production, social media marketing and much more.
+    </p>
+  </div>
+
+  <div class="work-flex-container">
+    <div class="project">
+        <div class=description>
+          <h2>CreaTV</h2>
+          <p>During the summer cohort of the San Jose Works program, I had the
+            opportunity to work at CreaTv. At CreaTV I was able to create a 5 minute documentary with 2
+            other fellow interns. Through this experience I have learned so much more about cameras,
+            editing, visual storytelling, flyers, and teamwork.  I had a lot of fun working with other interns and bringing our idea to
+            life.</p>
+        </div>
+        <img class="hidden-xs" src="business_project1.png">
+    </div>
+    <div class="project">
+        <img class="hidden-xs" src="https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822_960_720.jpg">
+        <div class=description1>
+          <h2>San Jose Public Library</h2>
+          <p>I worked at San Jose Public Library as a social media marketing intern. My work is to look at different marketing trends and create ad designs to help promote events at the library. This includes researching marketing strategies, analyzing engagement patterns on instagram, creating flyers for specific events.</p>
+        </div>
+    </div>
+    <!--
+    <div class="project" style="margin-bottom: 2em";>
+      <div class=description>
+        <h2>Project 3</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, rerum iure nemo quisquam totam quam pariatur dignissimos repellendus consequuntur odit provident, deleniti ad id, sed voluptatem vitae tempora doloremque dolore!</p>
+      </div>
+        <img class="hidden-xs" src="https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822_960_720.jpg">
+    </div>
+  -->
+  </div>
+  <div class="abtsect">
+    <h3 class="sectionTitle" style="font-weight: regular;">Employers, interested in partnering with us?</h3>
+
+    <button type="button" class="btn btn-primary learnMore" onclick="document.location='pages/employerform.html'">Join Us</button>
+    
+  </div>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer">
+  </div>
+  
+  <script>
+  $(function(){
+    $("#footer").load("footer/footer.html");
+  });
+  </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
